@@ -255,6 +255,14 @@ img { max-width: 100%; display: block; }
   font-size: 0.9rem;
   padding: 20px;
 }
+img.hero__photo {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
 
 @media (max-width: 860px) {
   .hero .container { grid-template-columns: 1fr; gap: 32px; padding-top: 54px; padding-bottom: 60px; }
@@ -358,6 +366,14 @@ a.card:hover .card__more { color: var(--brand-dark); }
   border: 1px solid var(--line);
   display: grid; place-items: center;
   text-align: center; color: var(--muted); padding: 24px; font-size: 0.92rem;
+}
+img.about__photo {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--shadow);
 }
 .about ul { list-style: none; padding: 0; margin: 18px 0 26px; display: grid; gap: 12px; }
 .about li { display: flex; gap: 12px; align-items: flex-start; }
