@@ -1,4 +1,4 @@
-// A.L.E Electrical — small bits of interactivity
+// A.L.E Electrical: small bits of interactivity
 
 // Mobile nav toggle
 const toggle = document.getElementById('navToggle');
