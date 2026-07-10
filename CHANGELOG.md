@@ -5,6 +5,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Custom domain going live:** pointed the site at aleelectrical.co.nz. Squarespace A records added for the root domain, and the custom-domain (CNAME) file published so GitHub Pages serves the site there. HTTPS certificate provisions automatically over the following minutes.
 - **Contact form switched to Web3Forms**, delivering enquiries straight to jacob@aleelectrical.co.nz (replaces the temporary FormSubmit setup that went to greg@chillair.co.nz).
 - **Big redesign, published.** Moved the whole site from the friendly navy + amber look to a cleaner, more professional style.
 - **New colour scheme:** charcoal, muted gold and slate (white header, dark footer), a professional builder look.
