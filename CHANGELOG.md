@@ -5,6 +5,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Contact form switched to Web3Forms**, delivering enquiries straight to jacob@aleelectrical.co.nz (replaces the temporary FormSubmit setup that went to greg@chillair.co.nz).
 - **Big redesign, published.** Moved the whole site from the friendly navy + amber look to a cleaner, more professional style.
 - **New colour scheme:** charcoal, muted gold and slate (white header, dark footer), a professional builder look.
 - **New logo:** the A-L-E Electrical logo now sits in the header and footer on a transparent background (old lightning-bolt mark removed).
