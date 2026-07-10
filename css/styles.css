@@ -571,3 +571,27 @@ img.about__photo {
   background: #fff; color: var(--ink); padding: 10px 16px; z-index: 100; border-radius: 8px;
 }
 .skip-link:focus { left: 12px; top: 12px; }
+
+/* ---------- Thank-you toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translate(-50%, 20px);
+  z-index: 200;
+  max-width: calc(100% - 32px);
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 16px 24px;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  text-align: center;
+}
+.toast--show { opacity: 1; transform: translate(-50%, 0); }
+.toast--error { border-left-color: #d9534f; }
