@@ -161,7 +161,8 @@ img { max-width: 100%; display: block; }
 .brand:hover { text-decoration: none; }
 .brand__logo { height: 88px; width: auto; display: block; }
 @media (max-width: 900px) { .brand__logo { height: 62px; } }
-@media (max-width: 600px) { .brand__logo { height: 52px; } }
+@media (max-width: 600px) { .brand__logo { height: 46px; } }
+@media (max-width: 380px) { .brand__logo { height: 40px; } }
 
 .header__contact {
   display: flex;
@@ -176,7 +177,16 @@ img { max-width: 100%; display: block; }
 .header__phone { color: var(--accent-dark); font-weight: 700; font-size: 1.05rem; }
 .header__phone:hover { color: var(--accent-dark); text-decoration: none; }
 @media (max-width: 900px) { .header__contact { margin-left: 14px; padding-left: 14px; } }
-@media (max-width: 600px) { .header__contact { display: none; } }
+@media (max-width: 600px) {
+  .header__contact { margin-left: 11px; padding-left: 11px; }
+  .header__name { font-size: 0.8rem; }
+  .header__phone { font-size: 0.9rem; }
+}
+@media (max-width: 380px) {
+  .header__contact { margin-left: 9px; padding-left: 9px; border-left: none; }
+  .header__name { font-size: 0.74rem; }
+  .header__phone { font-size: 0.84rem; }
+}
 .brand--footer { margin-bottom: 14px; }
 .brand__logo--light { height: 52px; filter: invert(1); }
 .brand__mark {
