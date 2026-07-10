@@ -5,6 +5,9 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Thank-you popup** now appears in the top-right corner (was bottom-centre).
+- **Footer "Areas we cover"** now lists all seven areas (added Christchurch and Waimakariri) laid out in two columns, so the footer stays short instead of getting taller.
+- **Trust strip on phones** now shows as a tidy 2x2: "Fully registered / Show up on time" on one row, "All electrical work / Locals helping locals" on the next.
 - **Mobile header:** the "Jacob Sommers" name and phone number now show next to the logo on phones too (previously desktop-only). Logo and text sized down slightly on small screens so it all fits neatly.
 - **Contact form thank-you popup:** the form now submits quietly in the background (via Web3Forms) and shows a fading "Thanks for your message! We'll be in touch soon." message, instead of sending the visitor off to the Web3Forms success page. Button shows "Sending..." while it works, and the form clears on success.
 - **Custom domain going live:** pointed the site at aleelectrical.co.nz. Squarespace A records added for the root domain, and the custom-domain (CNAME) file published so GitHub Pages serves the site there. HTTPS certificate provisions automatically over the following minutes.
