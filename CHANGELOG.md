@@ -5,6 +5,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Services reordered + new Ventilation page:** "Heat pumps & air conditioning" now leads the services list (swapped with "Repairs & fault finding"), and a new **Ventilation** service page was added and grouped with the heating/comfort services. Footer, sitemap and heat-pump page cross-links updated to match.
 - **Areas heading** on the homepage changed from "Proudly serving the Selwyn district" to "Proudly serving the Greater Christchurch region" to reflect the wider coverage.
 - **Three new area pages** built for Sheffield, Hororata and Leeston, so all 10 areas we cover now have their own page. Those towns are now clickable on the homepage areas list, and the footer "Areas we cover" lists all 10 (in two columns). Sitemap updated (also added Christchurch and Waimakariri, which had been missing from it).
 - **Footer wording:** the Services list now reads "Heat pumps & air conditioning" to match the homepage card.
