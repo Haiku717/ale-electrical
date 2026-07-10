@@ -5,6 +5,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Three new area pages** built for Sheffield, Hororata and Leeston, so all 10 areas we cover now have their own page. Those towns are now clickable on the homepage areas list, and the footer "Areas we cover" lists all 10 (in two columns). Sitemap updated (also added Christchurch and Waimakariri, which had been missing from it).
 - **Footer wording:** the Services list now reads "Heat pumps & air conditioning" to match the homepage card.
 - **Thank-you popup** now appears in the top-right corner (was bottom-centre).
 - **Footer "Areas we cover"** now lists all seven areas (added Christchurch and Waimakariri) laid out in two columns, so the footer stays short instead of getting taller.
