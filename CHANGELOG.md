@@ -5,6 +5,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 
 ## 2026-07-10
 
+- **Footer wording:** the Services list now reads "Heat pumps & air conditioning" to match the homepage card.
 - **Thank-you popup** now appears in the top-right corner (was bottom-centre).
 - **Footer "Areas we cover"** now lists all seven areas (added Christchurch and Waimakariri) laid out in two columns, so the footer stays short instead of getting taller.
 - **Trust strip on phones** now shows as a tidy 2x2: "Fully registered / Show up on time" on one row, "All electrical work / Locals helping locals" on the next.
