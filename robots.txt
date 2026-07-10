@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://haiku717.github.io/ale-electrical/sitemap.xml
+Sitemap: https://aleelectrical.co.nz/sitemap.xml

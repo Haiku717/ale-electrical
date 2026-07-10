@@ -3,6 +3,21 @@
 A plain-English record of every change made to the A.L.E Electrical website.
 Newest first. (The full technical history is in the GitHub commit log.)
 
+## 2026-07-10
+
+- **Big redesign, published.** Moved the whole site from the friendly navy + amber look to a cleaner, more professional style.
+- **New colour scheme:** charcoal, muted gold and slate (white header, dark footer), a professional builder look.
+- **New logo:** the A-L-E Electrical logo now sits in the header and footer on a transparent background (old lightning-bolt mark removed).
+- **Less personal, more company:** removed the "Jake" personal story, photos and first-person copy across every page. The site now speaks as the business ("we/our") rather than one person.
+- **Homepage rewritten:** new headline "Canterbury electrical & heating specialists", a Selwyn-based / 17 years / Ashburton to Amberley intro, professional service descriptions, and a cleaner "What you can expect from A.L.E Electrical" section.
+- **Header contact:** Jacob Sommers and phone shown next to the logo. Removed the old top contact bar.
+- **Menus matched** across every page (Services, Areas, Why us, Contact).
+- **Services:** now Repairs, Lighting, Switchboards, Heat pumps & air conditioning, and New builds. Removed EV chargers and Rural & farm (no farm work).
+- **Areas:** added Christchurch and Waimakariri pages, tidied the existing area pages.
+- **Contact:** added an email (jacob@aleelectrical.co.nz) and the contact person on the form; enquiries currently route via FormSubmit.
+- **Mobile polish:** logo scales down on phones, tighter spacing, and menu links now account for the sticky header.
+- **Domain prep:** all links, canonical tags, sitemap and robots now use https://aleelectrical.co.nz. The custom-domain switch itself is a separate step, done once the Squarespace DNS is pointed at GitHub.
+
 ## 2026-06-30
 
 - **Day-1 publishable cleanup:** removed the placeholder editor note and the fabricated customer testimonials. The reviews section is now "What you can expect from Jake" (honest promises), ready to swap for real Google reviews later.
