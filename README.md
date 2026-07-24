@@ -1,43 +1,34 @@
 # A.L.E Electrical website
 
-A friendly, family-feel website for Jake's electrical business, based in Darfield and serving the Selwyn district.
+The website for A.L.E Electrical, a family run electrical and heating business based in
+Darfield, Selwyn, serving homes and businesses across Canterbury (Ashburton to Amberley).
+
+**Live:** https://aleelectrical.co.nz
 
 Static HTML/CSS/JS, no build step. Just open `index.html` in a browser to preview.
 
 ## Files
-- `index.html`: the main homepage
-- `services/`: a page for each service (repairs, lighting, switchboards, heat pumps, new builds, EV chargers, rural)
-- `areas/`: local landing pages (Darfield, Kirwee, West Melton, Rolleston, Selwyn) for local Google searches
-- `images/`: Jake's photos
+- `index.html`: homepage (hero, trust strip, services, areas, why us, contact form)
+- `services/`: one page per service (heat pumps & air conditioning, ventilation, lighting,
+  switchboards, repairs & fault finding, new builds & renovations)
+- `areas/`: local landing pages for local Google searches (Darfield, Kirwee, West Melton,
+  Rolleston, Sheffield, Hororata, Leeston, Selwyn, Christchurch, Waimakariri)
+- `images/`: logo (`ale-logo.png`, header + footer)
 - `css/styles.css`: all the styling
-- `js/main.js`: mobile menu + footer year
+- `js/main.js`: mobile menu, footer year, contact-form AJAX + thank-you popup
 - `robots.txt` / `sitemap.xml`: help Google find the pages
+- `CNAME`: custom domain for GitHub Pages
 
----
+## Hosting
+Published with **GitHub Pages** on the custom domain **aleelectrical.co.nz** (HTTPS enforced;
+`www` and the old github.io URL redirect in). DNS is managed in Squarespace.
 
-## Done so far
-- Jake's mobile number (027 497 7992) is live across the whole site
-- Photos added: smiling headshot in the hero, family photo in the "Meet your electrician" section
-- Contact form enquiries currently go to **greg@chillair.co.nz** (temporary, via FormSubmit). Change later when Jake has his own inbox.
+## Contact form
+The contact form uses [Web3Forms](https://web3forms.com). Submissions are emailed to
+**jacob@aleelectrical.co.nz**. It posts in the background (AJAX) and shows a fading thank-you
+popup instead of redirecting. The access key lives in the hidden `access_key` field of the
+`<form>` in `index.html`; to change the destination, update it in the Web3Forms dashboard.
 
-## ⚠️ Still to fill in before going fully live
-
-| Placeholder | Replace with |
-|---|---|
-| `greg@chillair.co.nz` (shown email + form) | Jake's real business email when he has one |
-| `aleelectrical.co.nz` (in meta tags) | Jake's real domain (whatever he registers) |
-| Review text in "What the locals say" | Jake's real Google reviews once he has some |
-
-Things worth confirming with Jake:
-- **Registration number**: NZ electricians can show their EWRB registration number for trust. Add it to the footer.
-- **Exact services**: trim or add to match what Jake actually does.
-- **Hours**: I put Mon-Fri 7am-5pm as a guess.
-- **What "A.L.E" stands for**: left as just the business name for now.
-
-## How the contact form works
-The form uses [FormSubmit](https://formsubmit.co) (free, no signup) and is pointed at `greg@chillair.co.nz`.
-
-**Important:** the very first time someone submits the form, FormSubmit emails greg@chillair.co.nz a one-time "Activate Form" link. Click it once and all future enquiries come straight through. To change the destination later, just edit the email in the `action="..."` of the `<form>` in `index.html`.
-
-## Going live
-This is built the same way as chillair.co.nz (static site, GitHub Pages friendly). When Jake's happy with the content and has a domain, we can host it on GitHub Pages with a custom domain, same as Chill Air.
+## Editing rule
+Every change to the site gets a dated entry in `CHANGELOG.md`, then a commit pushed to `main`,
+so the repo is always a clear record of what changed and why.

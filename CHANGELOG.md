@@ -3,6 +3,17 @@
 A plain-English record of every change made to the A.L.E Electrical website.
 Newest first. (The full technical history is in the GitHub commit log.)
 
+## 2026-07-25
+
+- **Removed all references to another business from the repo docs.** Google's AI overview was
+  linking A.L.E Electrical to an unrelated business when people searched "A.L.E electrical". The
+  cause was crawlable text in this public repo: the old `README.md` said the site was "built the
+  same way as" that business and listed its email, and two `CHANGELOG.md` entries named a
+  temporary email inbox at that business. Rewrote `README.md` from scratch as a current, generic
+  project readme (Web3Forms → jacob@aleelectrical.co.nz, GitHub Pages on aleelectrical.co.nz) and
+  replaced the old email references in the changelog with "a temporary inbox". No live-site HTML
+  was touched, so the website itself is unaffected.
+
 ## 2026-07-10
 
 - **Services reordered + new Ventilation page:** "Heat pumps & air conditioning" now leads the services list (swapped with "Repairs & fault finding"), and a new **Ventilation** service page was added and grouped with the heating/comfort services. Footer, sitemap and heat-pump page cross-links updated to match.
@@ -15,7 +26,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 - **Mobile header:** the "Jacob Sommers" name and phone number now show next to the logo on phones too (previously desktop-only). Logo and text sized down slightly on small screens so it all fits neatly.
 - **Contact form thank-you popup:** the form now submits quietly in the background (via Web3Forms) and shows a fading "Thanks for your message! We'll be in touch soon." message, instead of sending the visitor off to the Web3Forms success page. Button shows "Sending..." while it works, and the form clears on success.
 - **Custom domain going live:** pointed the site at aleelectrical.co.nz. Squarespace A records added for the root domain, and the custom-domain (CNAME) file published so GitHub Pages serves the site there. HTTPS certificate provisions automatically over the following minutes.
-- **Contact form switched to Web3Forms**, delivering enquiries straight to jacob@aleelectrical.co.nz (replaces the temporary FormSubmit setup that went to greg@chillair.co.nz).
+- **Contact form switched to Web3Forms**, delivering enquiries straight to jacob@aleelectrical.co.nz (replaces the temporary FormSubmit setup that went to a temporary inbox).
 - **Big redesign, published.** Moved the whole site from the friendly navy + amber look to a cleaner, more professional style.
 - **New colour scheme:** charcoal, muted gold and slate (white header, dark footer), a professional builder look.
 - **New logo:** the A-L-E Electrical logo now sits in the header and footer on a transparent background (old lightning-bolt mark removed).
@@ -37,7 +48,7 @@ Newest first. (The full technical history is in the GitHub commit log.)
 - **Recording rule added:** from now on every edit to the site gets logged here and pushed to GitHub, so there's always a clear record of what changed.
 - **Address field:** the contact form's "Where are you?" box now prompts "Enter your address".
 - **Email hidden:** removed the visible email address from every page. Enquiries now come through the contact form only.
-- **Contact form live:** form submissions are emailed to greg@chillair.co.nz (temporary, via FormSubmit). Needs a one-time activation click on the first submission.
+- **Contact form live:** form submissions are emailed to a temporary inbox (via FormSubmit). Needs a one-time activation click on the first submission.
 - **Real phone number:** Jake's mobile 027 497 7992 added across the whole site, tap-to-call on mobile.
 - **Photos added:** smiling headshot in the top hero, family photo in the "Meet your electrician" section.
 - **Service pages:** built 7 dedicated pages (repairs & fault finding, lighting & LED, switchboards, heat pumps, new builds & renovations, EV chargers, rural & farm) and linked them from the homepage and footer.
