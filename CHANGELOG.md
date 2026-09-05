@@ -3,6 +3,16 @@
 A plain-English record of every change made to the A.L.E Electrical website.
 Newest first. (The full technical history is in the GitHub commit log.)
 
+## 2026-09-05
+
+- **Fixed the Google Search Console warning "Alternative page with proper canonical tag".** Every
+  page linked to the homepage as `index.html` (logo, nav, breadcrumbs, buttons, footer). GitHub
+  Pages serves both `aleelectrical.co.nz/` and `aleelectrical.co.nz/index.html`, so Google was
+  crawling two URLs for the same homepage. The canonical tag correctly told Google to keep `/`,
+  which is exactly what that Search Console message reports. Changed all internal homepage links
+  to the clean directory form (`../` and `../#services` on sub-pages, `./` on the homepage) so
+  only one homepage URL is ever crawled. Nothing visible changed on the site.
+
 ## 2026-07-25
 
 - **Removed all references to another business from the repo docs.** Google's AI overview was
