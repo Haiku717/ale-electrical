@@ -3,6 +3,54 @@
 A plain-English record of every change made to the A.L.E Electrical website.
 Newest first. (The full technical history is in the GitHub commit log.)
 
+## 2026-09-06
+
+Site health audit, then a batch of fixes off the back of it. Nothing about the look or the
+wording of the pages changed, apart from the two title corrections and the new services heading.
+
+- **Added a favicon, built from the A.L.E logo.** The site had none at all, so browser tabs and
+  bookmarks showed a blank page icon and `/favicon.ico` returned a 404. Generated a square icon
+  set from `images/ale-logo.png` (the A-L-E mark in white on the site's charcoal, so it stays
+  visible on both light and dark browser tabs): `favicon.ico` at the site root plus 16, 32, 48,
+  192 and 512 pixel PNGs and an Apple touch icon for "add to home screen".
+- **Added a social share image and social tags to all 17 pages.** Previously only the homepage had
+  any, and no page had an image, so pasting a link into Facebook, WhatsApp or Messenger showed a
+  blank grey box. Every page now has Open Graph and Twitter card tags with its own title and
+  description, pointing at a new 1200x630 share image (`images/og-image.png`).
+- **Structured data now on every page, not just the homepage.** Service pages carry Service
+  markup, area pages carry Electrician markup for their town, and both carry breadcrumb markup to
+  match the breadcrumbs already visible on screen. The homepage business details were refreshed at
+  the same time: the description now says Canterbury rather than Selwyn only, the service area
+  list gained Hororata, Christchurch, Waimakariri and Canterbury, and the six services are listed
+  as an offer catalogue. A note in each file marks where the Google Business Profile link goes
+  once we have it.
+- **Homepage title and description updated to match the page.** The heading has said "Canterbury
+  electrical & heating specialists" since July, but the title and description Google shows still
+  said "Your Local Selwyn Electrician" and mentioned only heat pumps. Both now say Canterbury and
+  cover heat pumps, air conditioning and ventilation.
+- **Heat pump page renamed to include air conditioning**, so it matches the homepage card and the
+  footer, which already said "Heat pumps & air conditioning".
+- **Four other service pages broadened from "Selwyn" to Canterbury** in their titles and
+  descriptions (lighting, switchboards, repairs, new builds), so they are not capped to one
+  district.
+- **Added a heading to the homepage services section.** It had no heading at all, so the page
+  jumped from the main heading straight to the six service cards. Now reads "Electrical, heating
+  and ventilation services", which fixes the heading order and adds a keyword-rich heading.
+- **Added a proper 404 page.** A mistyped or out-of-date link used to land on GitHub's generic
+  error page with no way back. There is now a branded page with the usual header and footer, a
+  link home, a call button and the list of services.
+- **Deleted the two old photos of Jake.** `jake-family.jpg` and `jake-hero.jpg` were removed from
+  the pages back in July but the files were still sitting on the live site, publicly reachable and
+  indexable by Google Images. Now deleted from the repo.
+
+Checked and found healthy: all 17 pages return 200 and load in about a quarter of a second, HTTPS
+and the www redirect are fine, all 356 internal links and asset references resolve, every
+canonical tag is correct, and every page has exactly one main heading.
+
+Still outstanding (not fixed here): the ten area pages are 60 to 75 percent word-for-word
+identical to each other, which is the one thing most likely to be holding their rankings back.
+That needs real local detail from Jacob rather than a code change.
+
 ## 2026-09-05
 
 - **Fixed the Google Search Console warning "Alternative page with proper canonical tag".** Every
