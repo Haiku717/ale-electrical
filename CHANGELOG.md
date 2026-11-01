@@ -3,6 +3,30 @@
 A plain-English record of every change made to the A.L.E Electrical website.
 Newest first. (The full technical history is in the GitHub commit log.)
 
+## 2026-11-01
+
+SEO, AEO and GEO work after a fresh audit. The goal is more visibility in Darfield, Kirwee,
+West Melton, Rolleston, Sheffield, Hororata, Leeston and the wider Selwyn district, and making
+the site easier for Google answer boxes and AI tools (ChatGPT, Google AI Overviews) to quote.
+
+- **Rewrote the 8 Selwyn area pages** (Darfield, Kirwee, West Melton, Rolleston, Sheffield,
+  Hororata, Leeston, Selwyn district). Each now has its own local detail (where the town is, how far
+  from our Darfield base, nearby towns covered, the kind of homes there, local heating and damp
+  issues), so they are no longer near-copies of each other. Pages went from about 200 to 250 words
+  to about 370 to 490, and repeated sentences between them dropped from up to 40% to 12 to 16%.
+- **Area pages now link to the service pages and to nearby area pages.** Before, they had no links
+  to either, so Google could not see how the site fits together.
+- **New titles and descriptions on those 8 pages,** now including "Heat Pumps" and the nearby towns
+  people search for (Glentunnel, Coalgate, Springfield, Doyleston, Southbridge, Lincoln and more).
+- **Added FAQ sections** (questions and answers that open on tap) to the homepage, all 6 service
+  pages and the 8 area pages, with matching FAQPage structured data. Answers only use facts already
+  on the site plus general NZ guidance (RCDs, Certificates of Compliance, Healthy Homes heating).
+  Jacob to check them.
+- **Area structured data** now says each town is in the Selwyn District.
+- **Added `llms.txt`**, a plain summary of the business, services and areas for AI tools.
+- **Sitemap now shows when each page was last updated** (`lastmod`).
+- Christchurch and Waimakariri area pages were not changed this time.
+
 ## 2026-09-06
 
 Site health audit, then a batch of fixes off the back of it. Nothing about the look or the
